@@ -18,7 +18,7 @@ class TestAccessNestedMap(unittest.TestCase):
         self.assertEqual(access_nested_map(nested_map, path), expected_result)
 
     def test_access_nested_map_exception(self):
-        """testing for exception for 
+        """testing for exception for
             nested_map={}, path=("a",)
             nested_map={"a": 1}, path=("a", "b")
             using parameterized decorator
